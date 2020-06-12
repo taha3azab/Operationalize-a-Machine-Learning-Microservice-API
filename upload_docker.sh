@@ -6,10 +6,13 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=taha3azab/prediction
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login && docker image tag prediction $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker image push $dockerpath

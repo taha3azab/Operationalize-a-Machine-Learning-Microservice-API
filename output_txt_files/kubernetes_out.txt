@@ -1,1 +1,8 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Port: 8000
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   260  100    48  100   212    695   3072 --:--:-- --:--:-- --:--:--  3823{
+  "prediction": [
+    20.35373177134412
+  ]
+}
